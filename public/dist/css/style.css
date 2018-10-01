@@ -1,0 +1,246 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2017, 11:56:51 AM
+    Author     : ved
+*/
+.tooltip{
+    z-index: 9999;
+}
+@media screen and (max-width: 768px){
+    .box-body{
+        overflow-x: scroll;
+    }
+    .text-right{
+        text-align: left !important;
+    }
+}
+.bg-white{
+    background: #fff !important;
+}
+.cust-width{
+    width: 50px;
+}
+.border-right-cust{
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+/*-----------------------------------------*/
+/*DIALOG*/
+.bootstrap-dialog .modal-header{
+    border-radius: 0;
+}
+/*-----------------------------------------*/
+/*SIDE NAV*/
+.side_nav a{
+    color: #000;
+}
+.side_nav a .row:hover{
+    background: #888;
+    color: #fff;
+}
+.side_nav_box{
+    position: fixed;
+    right: 1em;
+    overflow: hidden;
+    
+}
+.side_nav_box_title{
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+    background: #ddd;
+    z-index: 9999;
+    text-transform: uppercase;
+}
+.side_content{
+    background: #f7f7f7;
+    position: relative;
+    padding: 1em;
+    height: 400px; 
+    overflow-x:hidden;
+    overflow-y: scroll;  
+}
+@media only screen and (max-width: 1024px) {
+    .side_nav {
+        transition: all .4s;
+        transform: translateX(100%);
+        visibility: hidden;
+    }
+}
+.comment_content{
+    background: #f7f7f7;
+    position: relative;
+    padding: 1em;
+    max-height: 200px; 
+    overflow-x:hidden;
+    overflow-y: scroll;  
+}
+/* Custom Scroll bar */   
+.side_content::-webkit-scrollbar,.comment_content::-webkit-scrollbar {
+    width: 2px; 
+}  
+.side_content::-webkit-scrollbar-track,.comment_content::-webkit-scrollbar {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    /*border-radius: 10px;*/ 
+}  
+.side_content::-webkit-scrollbar-thumb,.comment_content::-webkit-scrollbar {
+    border-radius: 5px; 
+    background: #dd4b39;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/ 
+}
+/* Custom Scroll bar end */   
+.hr_0{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+.symbol{
+    font-size: 12px !important;
+    padding: 5px;
+    color: #fff;
+    background: #000;
+}
+.symbol-r{
+    border-radius: 5px;
+    font-size: 14px !important;
+    padding: 5px;
+    color: #8b8b8b;
+    /*background: ;*/
+}
+.lbl{
+    font-size: 16px;
+}
+.detail{
+    font-size: 15px;
+}
+.title-hight{
+    height: 20px;
+}
+.text-right-cust{
+    text-align: right;
+}
+/*Image*/
+.full{
+    display: flex;
+}
+.cover{
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+.overflow {
+    overflow: hidden;
+    position: relative; 
+    padding: 0;
+    margin: 0;
+}
+.cover_pic {
+   
+    overflow: hidden;
+    width:100%;
+    height: 20em;
+     display: flex;
+    align-items: center;
+}
+.cover_pic img {
+   
+    width: 100%;
+    position: relative;
+
+}
+.img-cover {
+    background-color: rgba(0,0,0,.50);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.img-cover .title{
+    height: auto;
+    text-align: center;
+}
+.img-detail {
+    color: #fff;
+    font-size: 20px;
+    /*background-color: rgba(0,0,0,.25);*/
+    position: absolute;
+    right: 0;
+    bottom: 1em;
+    left: 0;
+}
+.top-right{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        color: #fff;
+}
+/*--------------------------------------*/
+.label-day{
+    text-transform: uppercase;
+    background: #34495e !important;
+    color: #fff !important;
+    margin-left: 10px;
+}
+/*-----------------------------------------*/
+.profile-user{
+    height: auto;
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+}
+.hover:hover .hover div{
+    background: #888;
+}
+/*------------------------------------------*/
+.toggle-on,.toggle-off{
+    line-height: none;
+}
+.chips{
+    padding: 5px;
+    margin: 0 auto;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.closebtn:hover {
+    color: #000;
+}
+.margin10{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.margin0{
+    margin: 0px !important;
+}
+.pad-v{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+   

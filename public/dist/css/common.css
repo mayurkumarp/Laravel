@@ -1,0 +1,49 @@
+.relative{
+    position: relative;
+}
+.flex{
+    display: flex;
+   align-items: center;
+}
+.flex-child{
+    flex: 1;
+}
+.pad{
+    padding: 5px;
+}
+.pad-left{
+    padding-left: 5px;
+}
+.text-white{
+    color: #fff;
+}
+.topbar a:hover{
+    color: #fff !important;
+}
+.form-horizontal span{
+    display: inline !important;
+}
+textArea{
+    resize: none;
+}
+.topbar .dropdown-menu li {
+    line-height: 10px;
+    padding-top: 15px !important;
+    display: block;
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+.card-img-overlay-data {
+    height: 100px;
+    padding: 1.25rem;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.0) 15%,rgba(0,0,0,0.0) 0,rgba(0,0,0,1) 100%);
+}
